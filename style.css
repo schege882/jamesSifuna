@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url('images/bg-image-Nairobi-city.avif') no-repeat center center/cover;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.header img {
+    width: 80%;
+}
+
+.navbar ul{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: white;
+}
+
+.redtext {
+    color: red;
+}
+
+.news, .research-activity, .teaching-activity, .overview{
+    text-align: justify;
+}
+
+.news{
+    margin-bottom: 15px;
+}
+
+.research-activity{
+    margin-bottom: 15px;
+}
+
+.teaching-activity{
+    margin-bottom: 20px;
+}
+
+/* Publications */
+.scholarsites a{
+    text-decoration: none;
+    color: red;
+}
+
+.scholarsites a:hover{
+    color: blue;
+}
+
+/* contacts */
+.contact{
+    line-height: 1.5;
+}
