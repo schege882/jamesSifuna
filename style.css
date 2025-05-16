@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
+.outcontainer{
+    /* height: 100vh; */
     background: url('images/bg-image-Nairobi-city.avif') no-repeat center center/cover;
 }
 
 .container {
-    width: 50%;
-    margin: auto;
+    width: 70%;
+    margin: 0 auto;
     background-color: white;
     padding: 20px;
+    height: 100vh;
 }
 
 .header {
@@ -52,24 +53,103 @@ body{
     color: white;
 }
 
+section{
+    line-height: 1.6;
+}
+
 .redtext {
     color: red;
 }
 
-.news, .research-activity, .teaching-activity, .overview{
+.profile{
     text-align: justify;
 }
 
-.news{
-    margin-bottom: 15px;
+.profile{
+    background-color: #98f3ff;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.research-activity{
-    margin-bottom: 15px;
+.profile h1 {
+    text-align: center;
 }
 
-.teaching-activity{
-    margin-bottom: 20px;
+footer {
+    text-align: center;
+    background-color: grey;
+    color: black;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+/* lectures */
+.courses{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.courses h2{
+    padding: 5px;
+}
+
+.courses li{
+    list-style-type: none;
+    line-height: 3.0;
+}
+
+.courses a:hover{
+    background-color: gold;
+    color: black;
+    padding: 4px;
+    border: solid gold 2px;
+    border-radius: 8px;
+}
+
+/* research */
+.overview{
+    text-align: justify;
+}
+
+.pra {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.activity {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;  
+    width: 80%;
+    margin: 20px auto;
+}
+
+.activity img{
+    max-width: 100%;
+    height: auto;
+}
+
+.activity p{
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.activity div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures spacing between image and text */
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-align: justify;
 }
 
 /* Publications */
@@ -80,6 +160,19 @@ body{
 
 .scholarsites a:hover{
     color: blue;
+}
+
+.publications{
+    padding: 2rem;
+}
+
+.publications h4{
+    text-align: center;
+    padding: 10px;
+}
+
+.publications li{
+    text-align: justify;
 }
 
 /* contacts */

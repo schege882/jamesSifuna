@@ -1,0 +1,35 @@
+/* phyc 301 */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: goldenrod; */
+    padding: 20px;
+    height: 100vh;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.documents{
+    display: inline;
+    font-weight: bolder;
+}
+
+.documents a{
+    margin-right: 5px;
+    padding: 4px;
+}
+
+.documents a:hover{
+    background-color: gold;
+    color: black;
+    border: solid cyan 2px;
+    border-radius: 8px;
+}
+
+.redtext{
+    color: red;
+    margin-right: 5px;
+    padding: 4px;
+}
